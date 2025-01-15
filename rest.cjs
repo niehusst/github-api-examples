@@ -1,7 +1,8 @@
 /**
  code to test modifying existing files in repo, commiting and 
  pushing to new branch.
- This uses the older `git` tools from octokit.
+ This uses the older `git` REST API from octokit.
+ It also uses common JS which is a little simpler to get running in a stand-alone script than ES6 modules
  */
 const github = require('@actions/github');
 const fs = require('fs').promises;
